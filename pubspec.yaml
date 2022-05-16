@@ -20,5 +20,10 @@ dev_dependencies:
 
 
 flutter:
+  plugin:
+    platforms:
+      web:
+        pluginClass: RazorpayWeb
+        # fileName: razorpay_flutter_customui_web.dart
 
   
